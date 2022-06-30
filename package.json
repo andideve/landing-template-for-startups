@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@andideve/ds-react": "^0.0.2",
+    "@andideve/ds-react": "0.0.3",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "clsx": "^1.1.1",

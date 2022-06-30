@@ -5,11 +5,9 @@ const global = (theme: Theme) => `
     --transition-color: ${newTransition('color', { duration: 200 })};
     --transition-background-color: ${newTransition('background-color')};
 
-    --color-white: ${theme.colors.white};
-    // --color-white: hsl(205deg, 29%, 88%);
-    --color-black: hsl(210deg, 9%, 9%);
-
     // Overrides
+
+    --color-black: hsl(210deg, 9%, 9%);
 
     --color-foreground: var(--color-white);
     --color-background: var(--color-black);
